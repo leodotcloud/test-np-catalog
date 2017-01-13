@@ -1,0 +1,15 @@
+.catalog:
+  version: "v1"
+  questions:
+    - variable: "S1_PORT"
+      label: "Service One Port"
+      description: "Port on which Service One runs"
+      type: "string"
+      default: "10001"
+      required: true
+    - variable: "S1_ALPHABET"
+      label: "Service One Alphabet"
+      description: "Alphabet to show on Service One"
+      type: "string"
+      default: "a"
+      required: true

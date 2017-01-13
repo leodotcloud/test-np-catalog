@@ -1,0 +1,40 @@
+.catalog:
+  version: "v1"
+  questions:
+    - variable: "S1_PORT"
+      label: "Service One Port"
+      description: "Port on which Service One runs"
+      type: "string"
+      default: "30001"
+      required: true
+    - variable: "S1_ALPHABET"
+      label: "Service One Alphabet"
+      description: "Alphabet to show on Service One"
+      type: "string"
+      default: "x"
+      required: true
+    - variable: "S2_PORT"
+      label: "Service Two Port"
+      description: "Port on which Service Two runs"
+      type: "string"
+      default: "30002"
+      required: true
+    - variable: "S2_ALPHABET"
+      label: "Service Two Alphabet"
+      description: "Alphabet to show on Service Two"
+      type: "string"
+      default: "y"
+      required: true
+    - variable: "S3_PORT"
+      label: "Service Three Port"
+      description: "Port on which Service Three runs"
+      type: "string"
+      default: "30003"
+      required: true
+    - variable: "S3_ALPHABET"
+      label: "Service Three Alphabet"
+      description: "Alphabet to show on Service Three"
+      type: "string"
+      default: "z"
+      required: true
+

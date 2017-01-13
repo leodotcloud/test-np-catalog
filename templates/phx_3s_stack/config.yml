@@ -1,0 +1,5 @@
+name: phx_3s_stack
+description: |
+  Just a test stack with three services
+version: v1
+category: Test

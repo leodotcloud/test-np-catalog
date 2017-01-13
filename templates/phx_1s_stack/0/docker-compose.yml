@@ -1,0 +1,6 @@
+serviceone:
+    image: leodotcloud/nato-alphabets
+    ports:
+        - ${S1_PORT}:80
+    environment:
+        - NATO_ALPHABET=${S1_ALPHABET}

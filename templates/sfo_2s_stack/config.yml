@@ -1,0 +1,5 @@
+name: sfo_2s_stack
+description: |
+  Just a test stack with two services
+version: v1
+category: Test

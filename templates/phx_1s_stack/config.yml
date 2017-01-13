@@ -1,0 +1,5 @@
+name: phx_1s_stack
+description: |
+  Just a test stack with one service
+version: v1
+category: Test

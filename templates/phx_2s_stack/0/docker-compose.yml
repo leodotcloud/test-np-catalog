@@ -1,0 +1,13 @@
+serviceone:
+    image: leodotcloud/nato-alphabets
+    ports:
+        - ${S1_PORT}:80
+    environment:
+        - NATO_ALPHABET=${S1_ALPHABET}
+
+servicetwo:
+    image: leodotcloud/nato-alphabets
+    ports:
+        - ${S2_PORT}:80
+    environment:
+        - NATO_ALPHABET=${S2_ALPHABET}
