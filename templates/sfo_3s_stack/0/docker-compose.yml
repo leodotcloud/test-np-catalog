@@ -1,5 +1,8 @@
 serviceone:
     image: leodotcloud/nato-alphabets
+    labels:
+        com.rancher.stack.location: "sfo"
+        com.rancher.stack.size: "3"
     ports:
         - ${S1_PORT}:80
     environment:
@@ -7,6 +10,9 @@ serviceone:
 
 servicetwo:
     image: leodotcloud/nato-alphabets
+    labels:
+        com.rancher.stack.location: "sfo"
+        com.rancher.stack.size: "3"
     ports:
         - ${S2_PORT}:80
     environment:
@@ -14,6 +20,9 @@ servicetwo:
 
 servicethree:
     image: leodotcloud/nato-alphabets
+    labels:
+        com.rancher.stack.location: "sfo"
+        com.rancher.stack.size: "3"
     ports:
         - ${S3_PORT}:80
     environment:
