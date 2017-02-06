@@ -1,0 +1,5 @@
+name: dockerlinks
+description: |
+  Just a test stack with docker links
+version: v1
+category: Test

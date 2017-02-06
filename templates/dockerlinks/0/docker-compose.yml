@@ -1,0 +1,11 @@
+serviceone:
+    image: leodotcloud/nato-alphabets
+    environment:
+        - NATO_ALPHABET=${S1_ALPHABET}
+
+servicetwo:
+    image: leodotcloud/nato-alphabets
+    environment:
+        - NATO_ALPHABET=${S2_ALPHABET}
+    links:
+        - serviceone
