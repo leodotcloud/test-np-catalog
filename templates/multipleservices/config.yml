@@ -1,0 +1,5 @@
+name: multiple_services
+description: |
+  Just a test stack with multiple services
+version: v1
+category: Test

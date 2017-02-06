@@ -1,0 +1,16 @@
+serviceone:
+    image: leodotcloud/nato-alphabets
+    environment:
+        - NATO_ALPHABET=${S1_ALPHABET}
+
+servicetwo:
+    image: leodotcloud/nato-alphabets
+    labels:
+      io.rancher.scheduler.global: true
+    environment:
+        - NATO_ALPHABET=${S2_ALPHABET}
+
+servicethree:
+    image: leodotcloud/nato-alphabets
+    environment:
+        - NATO_ALPHABET=${S3_ALPHABET}

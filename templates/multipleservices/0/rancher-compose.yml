@@ -1,0 +1,24 @@
+.catalog:
+  version: "v1"
+  questions:
+    - variable: "S1_ALPHABET"
+      label: "Service One Alphabet"
+      description: "Alphabet to show on Service One"
+      type: "string"
+      default: "j"
+      required: true
+    - variable: "S2_ALPHABET"
+      label: "Service Two Alphabet"
+      description: "Alphabet to show on Service Two"
+      type: "string"
+      default: "k"
+      required: true
+    - variable: "S3_ALPHABET"
+      label: "Service Three Alphabet"
+      description: "Alphabet to show on Service Three"
+      type: "string"
+      default: "l"
+      required: true
+
+serviceone:
+  scale: 5
