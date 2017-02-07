@@ -9,3 +9,11 @@ servicetwo:
         - NATO_ALPHABET=${S2_ALPHABET}
     links:
         - serviceone
+
+servicethree:
+    image: leodotcloud/nato-alphabets
+    environment:
+        - NATO_ALPHABET=${S3_ALPHABET}
+    links:
+        - serviceone
+        - servicetwo
