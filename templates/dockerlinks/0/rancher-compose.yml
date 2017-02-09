@@ -19,3 +19,9 @@
       type: "string"
       default: "l"
       required: true
+
+servicetwo:
+  scale: 2
+
+servicethree:
+  scale: 3
