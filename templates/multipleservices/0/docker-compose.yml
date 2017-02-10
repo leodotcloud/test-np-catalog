@@ -9,6 +9,11 @@ servicetwo:
       io.rancher.scheduler.global: true
     environment:
         - NATO_ALPHABET=${S2_ALPHABET}
+    labels:
+      io.rancher.sidekicks: servicetwosk
+
+servicetwosk:
+    image: leodotcloud/nato-alphabets
 
 servicethree:
     image: leodotcloud/nato-alphabets
