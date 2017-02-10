@@ -1,10 +1,10 @@
 serviceone:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     environment:
         - NATO_ALPHABET=${S1_ALPHABET}
 
 servicetwo:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
       io.rancher.scheduler.global: true
     environment:
@@ -13,9 +13,9 @@ servicetwo:
       io.rancher.sidekicks: servicetwosk
 
 servicetwosk:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
 
 servicethree:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     environment:
         - NATO_ALPHABET=${S3_ALPHABET}

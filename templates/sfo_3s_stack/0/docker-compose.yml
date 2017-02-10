@@ -1,5 +1,5 @@
 serviceone:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
         com.rancher.stack.location: "sfo"
         com.rancher.stack.size: "3"
@@ -9,7 +9,7 @@ serviceone:
         - NATO_ALPHABET=${S1_ALPHABET}
 
 servicetwo:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
         com.rancher.stack.location: "sfo"
         com.rancher.stack.size: "3"
@@ -19,7 +19,7 @@ servicetwo:
         - NATO_ALPHABET=${S2_ALPHABET}
 
 servicethree:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
         com.rancher.stack.location: "sfo"
         com.rancher.stack.size: "3"

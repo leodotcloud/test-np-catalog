@@ -1,5 +1,5 @@
 serviceone:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
         com.rancher.stack.location: "sfo"
         com.rancher.stack.size: "1"

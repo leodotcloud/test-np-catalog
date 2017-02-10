@@ -1,5 +1,5 @@
 serviceone:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
         com.rancher.stack.location: "phx"
         com.rancher.stack.size: "2"
@@ -9,7 +9,7 @@ serviceone:
         - NATO_ALPHABET=${S1_ALPHABET}
 
 servicetwo:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     labels:
         com.rancher.stack.location: "phx"
         com.rancher.stack.size: "2"

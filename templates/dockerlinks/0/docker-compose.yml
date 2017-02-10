@@ -1,17 +1,17 @@
 serviceone:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     environment:
         - NATO_ALPHABET=${S1_ALPHABET}
 
 servicetwo:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     environment:
         - NATO_ALPHABET=${S2_ALPHABET}
     links:
         - serviceone
 
 servicethree:
-    image: leodotcloud/nato-alphabets
+    image: leodotcloud/swiss-army-knife
     environment:
         - NATO_ALPHABET=${S3_ALPHABET}
     links:
