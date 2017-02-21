@@ -12,8 +12,13 @@ servicetwo:
     image: leodotcloud/swiss-army-knife
     environment:
         - NATO_ALPHABET=${S2_ALPHABET}
+    labels:
+      io.rancher.sidekicks: servicetwosk
     links:
         - serviceone
+
+servicetwosk:
+    image: leodotcloud/swiss-army-knife
 
 servicethree:
     image: leodotcloud/swiss-army-knife
